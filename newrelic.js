@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['pumpkin-tart-71750'],
+  app_name: ['Gurkalov Application'],
   /**
    * Your New Relic license key.
    */
-  license_key: 'eee61b7f7f91dd27420975c00ae02d8f97bb6922',
+  license_key: '8f1e18460f71565ee0a4197ecbc8370e6e8f4d1f',
   logging: {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
