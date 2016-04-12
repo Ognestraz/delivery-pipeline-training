@@ -1,11 +1,11 @@
-language: node_js  
-node_js:
- - "5.10"
-services:
- - postgresql
+sudo: false
+language: node_js
+node_js: '5'
+addons:
+  postgresql: '9.4'
+before_script:
+  - bash install.sh
+script:
+  - source env.sh && npm run test
 notifications:
- slack: 
-  - devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
-
-npm install
-npm run test
+  slack: devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
