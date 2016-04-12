@@ -3,6 +3,8 @@ node_js:
   - "5.10"
 services:
   - postgresql
+notifications:
+  slack: devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
 
 npm install
 npm run test
