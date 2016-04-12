@@ -1,6 +1,5 @@
 # delivery-pipeline-training
-
-[![Build Status](https://travis-ci.org/devops-ru/delivery-pipeline-training.svg?branch=master)](https://travis-ci.org/devops-ru/delivery-pipeline-training)
+[![Build Status](https://travis-ci.org/Ognestraz/delivery-pipeline-training.svg?branch=master)](https://travis-ci.org/Ognestraz/delivery-pipeline-training)
 
 ## Slack
 [devops-training-spb.slack.com](https://devops-training-spb.slack.com)
