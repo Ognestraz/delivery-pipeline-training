@@ -1,10 +1,10 @@
 language: node_js  
 node_js:
-  - "5.10"
+ - "5.10"
 services:
-  - postgresql
+ - postgresql
 notifications:
-  slack: devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
+ slack: devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
 
 npm install
 npm run test
