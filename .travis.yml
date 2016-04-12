@@ -4,7 +4,8 @@ node_js:
 services:
  - postgresql
 notifications:
- slack: devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
+ slack: 
+  - devops-training-spb:2TUVBAPNGyv7FulaSuzDbH6O
 
 npm install
 npm run test
